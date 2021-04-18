@@ -3,8 +3,11 @@ import {
     BrowserRouter as Router,Route, Switch} from "react-router-dom";
 import About from '../../components/pages/About';
 import Dashboard from '../../components/pages/Dashboard';
+import InputUser from '../../components/pages/InputUser';
 import Login from '../../components/pages/Login';
 import Register from '../../components/pages/Register';
+
+
 
 const index = () => {
     return (
@@ -13,7 +16,7 @@ const index = () => {
                 <Route exact path="/">
                     <Dashboard />
                 </Route>
-                <Route path="/login">
+                {/* <Route path="/login">
                     <Login title="Welcome"/>
                 </Route>
                 <Route path="/about">
@@ -21,6 +24,9 @@ const index = () => {
                 </Route>
                 <Route path="/register">
                     <Register />
+                </Route> */}
+                <Route path="/input">
+                    <InputUser />
                 </Route>
             </Switch>
         </Router>
