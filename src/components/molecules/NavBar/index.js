@@ -12,10 +12,11 @@ const index = () => {
     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div className="navbar-nav">
          <Link className="nav-link"to="/">Dashboard</Link>
-         {/* <Link className="nav-link"to="/login">Login</Link>
-         <Link className="nav-link"to="/about">About</Link>
-         <Link className="nav-link"to="/register">Register</Link> */}
-         <Link className="nav-link"to="/input">Input</Link>
+         {/* <Link className="nav-link"to="/login">Login</Link> */}
+         {/* <Link className="nav-link"to="/about">About</Link> */}
+         {/* <Link className="nav-link"to="/register">Register</Link> */}
+         {/* <Link className="nav-link"to="/input">Input</Link> */}
+         {/* <Link className="nav-link"to="/Register2">Register</Link> */}
       </div>
     </div>
   </div>
